@@ -37,7 +37,7 @@ const WeatherCard = ({wIn}) => {
                     <div className='temp-location'>
                         <div className='temp'>{temp}&deg;</div>
                         <div className='place'>
-                            <span>Thunderstorm</span>
+                            <span>{weatherMood}</span>
                             <p>{name}, {country}</p>
                         </div>
                     </div>
